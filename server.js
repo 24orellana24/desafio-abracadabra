@@ -7,7 +7,7 @@ app.listen(3000, () => {
   console.log('El servidor está inicializado en el puerto 3000')
 })
 
-// Definiendo la carpeta pública
+// Definiendo la carpeta pública del proyecto
 app.use(express.static('assets'));
 
 // Ruta para levatar el index.html
